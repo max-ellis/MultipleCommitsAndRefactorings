@@ -7,12 +7,12 @@ public class main {
     }
 
 
-    private static int getIntX(){
+    private static int getX(){
         return 5;
     }
 
 
-    private static int getIntY(){
+    private static int getY(){
         return 4;
     }
 
@@ -21,8 +21,8 @@ public class main {
     }
 
     private static void foo(){
-        int x = getIntX();
-        int y = getIntY();
+        int x = getX();
+        int y = getY();
 	x = x*x;
         graph(x, y);
     }
