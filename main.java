@@ -6,6 +6,10 @@ public class main {
         mult();
     }
 
+    private static void print(int a, int b){
+        System.out.println(a*b);
+    }
+
     private static void mult(){
         int x = getIntX();
         int y = getIntY();
@@ -21,7 +25,4 @@ public class main {
         return 4;
     }
 
-    private static void print(int a, int b){
-        System.out.println(a*b);
-    }
 }
