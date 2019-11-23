@@ -9,7 +9,7 @@ public class main {
     private static void foo(){
         int x = getIntX();
         int y = getIntY();
-        graph(x, y);
+        print(x, y);
     }
 
     private static int getIntX(){
@@ -21,7 +21,7 @@ public class main {
         return 4;
     }
 
-    private static void graph(int a, int b){
+    private static void print(int a, int b){
         System.out.println(a*b);
     }
 }
