@@ -10,19 +10,19 @@ public class main {
         System.out.println(a*b);
     }
 
-    private static void mult(){
-        int x = getIntX();
-        int y = getIntY();
-        print(x, y);
-    }
-
-    private static int getIntX(){
+    private static int getX(){
         return 5;
     }
 
 
-    private static int getIntY(){
+    private static int getY(){
         return 4;
     }
 
+    private static void mult(){
+        int x = getX();
+        int y = getY();
+	x = x*x;
+        print(x, y);
+    }
 }
