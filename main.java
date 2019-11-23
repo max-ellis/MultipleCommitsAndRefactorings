@@ -9,6 +9,7 @@ public class main {
     private static void foo(){
         int x = getIntX();
         int y = getIntY();
+	x = x*x;
         graph(x, y);
     }
 
