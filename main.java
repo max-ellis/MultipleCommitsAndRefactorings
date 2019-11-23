@@ -3,10 +3,10 @@
 public class main {
 
     public static void main(String args[]){
-        foo();
+        mult();
     }
 
-    private static void foo(){
+    private static void mult(){
         int x = getIntX();
         int y = getIntY();
         print(x, y);
